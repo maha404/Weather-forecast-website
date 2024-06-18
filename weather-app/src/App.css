@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(#7399D2, #ffffff);
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 100rem;
+    font-family: "Inter", sans-serif;
+}
+
+.App {
+   background-color: white;
+   border-radius: 1rem;
+   padding: 4rem 2rem 4rem 2rem;
+   margin-top: 3%;
+   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    border: none;
+    background-color: #E9E9E9;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 20px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.label {
+    font-size: 20px;
+}
+
+.weather-icon {
+    width: 15rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    justify-content: center;
+}
+
+.current-weather-card {
+    background-color: #7399D2;
+    width: fit-content;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    justify-content: space-around;
+    color: white;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.date {
+    font-size: 30px;
+}
+
+.temp-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.temp-icon p {
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.weather {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.wind-humidity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 9rem;
+}
+
+.title-wind, 
+.title-humidity {
+    font-size: 15px;
+}
+
+.wind-data, 
+.humidity-data {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.daily-forecast-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.daily-forecast-card {
+    background-color: #acacac;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.forecast-icon {
+    width: 8rem;
+}
+
+.form {
+    margin-left: 1.5rem;
+    margin-bottom: 3rem;
+}
